@@ -18,4 +18,7 @@ public class Party {
 
     @Column(nullable = false)
     private int voteCount;
+
+    @Column(name = "image_url") // This will create a column named 'image_url' in the database
+    private String image_url; // Store the image URL
 }
